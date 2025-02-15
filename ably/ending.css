@@ -30,3 +30,18 @@
   font-size: 18px;
   color: #757575;
 }
+
+@media screen and (max-width: 480px) {
+  .ending > .contents {
+    max-width: 340px;
+  }
+  .ending > .contents > .album {
+    height: 240px;
+  }
+  .ending > .contents > h2 {
+    font-size: 32px;
+  }
+  .ending > .contents > h6 {
+    font-size: 16px;
+  }
+}

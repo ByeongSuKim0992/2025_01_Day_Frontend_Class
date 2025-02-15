@@ -63,3 +63,18 @@
   text-align: center;
   grid-area: 6 / 1 / 8 / 4;
 }
+
+@media screen and (max-width: 480px) {
+  .grids > .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: fit-content;
+    max-width: 340px;
+  }
+
+  .grids > .contents > article {
+    height: 400px;
+    font-size: 30px;
+  }
+}
